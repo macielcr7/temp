@@ -7,27 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		0207DA581B56EA530066E2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Assets.xcassets */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
-		040F754A249EAEAE00BB92D0 /* ControlBlindIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040F7549249EAEAE00BB92D0 /* ControlBlindIntentHandler.swift */; };
-		040F7566249EB17300BB92D0 /* IntentKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 040F7564249EB17300BB92D0 /* IntentKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		040F7569249EB17300BB92D0 /* IntentKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F7562249EB17300BB92D0 /* IntentKit.framework */; };
-		040F756A249EB17300BB92D0 /* IntentKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 040F7562249EB17300BB92D0 /* IntentKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		040F7574249EB3BA00BB92D0 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 040F756E249EB18500BB92D0 /* Intents.intentdefinition */; };
-		040F7575249EB3BA00BB92D0 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 040F756E249EB18500BB92D0 /* Intents.intentdefinition */; };
-		046805D0249EF4F000F8B9ED /* ActivateSceneHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046805CF249EF4F000F8B9ED /* ActivateSceneHandler.swift */; };
-		046805D3249EF52900F8B9ED /* IntentUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046805D2249EF52900F8B9ED /* IntentUtils.swift */; };
-		043EF2F7245B5D2000A7ACFF /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043EF2F6245B5D2000A7ACFF /* IntentHandler.swift */; };
-		043EF2FB245B5D2000A7ACFF /* NeoSmartBlindsIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 043EF2F4245B5D2000A7ACFF /* NeoSmartBlindsIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		4E7CA2B6272ABB0D00177EF9 /* config.xml in Copy Staging Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
+		4E7CA2B7272ABB0D00177EF9 /* www in Copy Staging Resources */ = {isa = PBXBuildFile; fileRef = 301BF56E109A69640062928A /* www */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-
 		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */;
@@ -49,59 +40,25 @@
 			remoteGlobalIDString = C0C01EB21E3911D50056E6CB;
 			remoteInfo = Cordova;
 		};
-		043EF2F9245B5D2000A7ACFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 043EF2F3245B5D2000A7ACFF;
-			remoteInfo = NeoSmartBlindsIntents;
-		};
-		04C2A52424A2DE2800BBF1FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 040F7561249EB17300BB92D0;
-			remoteInfo = IntentKit;
-		};
-
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		043EDB972465820E00422900 /* Embed Frameworks */ = {
+		857339E32710CC9700A1C74C /* Copy Staging Resources */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 7;
 			files = (
+				4E7CA2B6272ABB0D00177EF9 /* config.xml in Copy Staging Resources */,
+				4E7CA2B7272ABB0D00177EF9 /* www in Copy Staging Resources */,
 			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		043EF2FC245B5D2000A7ACFF /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				043EF2FB245B5D2000A7ACFF /* NeoSmartBlindsIntents.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
+			name = "Copy Staging Resources";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "__PROJECT_NAME__/Images.xcassets"; sourceTree = SOURCE_ROOT; };
-		040F7549249EAEAE00BB92D0 /* ControlBlindIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ControlBlindIntentHandler.swift"; sourceTree = "<group>"; };
-		040F7562249EB17300BB92D0 /* IntentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IntentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		040F7564249EB17300BB92D0 /* IntentKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntentKit.h"; sourceTree = "<group>"; };
-		040F7565249EB17300BB92D0 /* IntentKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "IntentKit-Info.plist"; path = "__PROJECT_NAME__/IntentKit-Info.plist";  sourceTree = SOURCE_ROOT;  };
-		040F756E249EB18500BB92D0 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = "Intents.intentdefinition"; sourceTree = "<group>"; };
-		043EF2F4245B5D2000A7ACFF /* NeoSmartBlindsIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "__PROJECT_NAME__/NeoSmartBlindsIntents.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		043EF2F6245B5D2000A7ACFF /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IntentHandler.swift"; sourceTree = "<group>"; };
-		046805CF249EF4F000F8B9ED /* ActivateSceneHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivateSceneIntentHandler.swift; sourceTree = "<group>"; };
-		046805D2249EF52900F8B9ED /* IntentUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentUtils.swift; sourceTree = "<group>"; };
-		043EF2F8245B5D2000A7ACFF /* NeoSmartBlindsIntents-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "NeoSmartBlindsIntents-Info.plist"; path = "__PROJECT_NAME__/NeoSmartBlindsIntents-Info.plist";  sourceTree = SOURCE_ROOT; };
+		0207DA571B56EA530066E2B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* __PROJECT_NAME__.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "__PROJECT_NAME__.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,8 +72,8 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* __PROJECT_NAME__-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "__PROJECT_NAME__-Prefix.pch"; sourceTree = "<group>"; };
-		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = "__PROJECT_NAME__/CDVLaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
-		8D1107310486CEB800E47090 /* __PROJECT_NAME__-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "__PROJECT_NAME__-Info.plist"; path = "__PROJECT_NAME__/__PROJECT_NAME__-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CDVLaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* __PROJECT_NAME__-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "__PROJECT_NAME__-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
@@ -128,71 +85,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				301BF552109A68D80062928A /* libCordova.a in Frameworks */,				
-				043EDB952465820E00422900 /* shared.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		040F755F249EB17300BB92D0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		043EF2F1245B5D2000A7ACFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		040F7563249EB17300BB92D0 /* IntentKit */ = {
-			isa = PBXGroup;
-			children = (
-				040F7564249EB17300BB92D0 /* IntentKit.h */,
-				040F7565249EB17300BB92D0 /* Info.plist */,
-				040F756E249EB18500BB92D0 /* Intents.intentdefinition */,
-			);
-			name = IntentKit;
-			path = "__PROJECT_NAME__/IntentKit";
-			sourceTree = SOURCE_ROOT;
-		};
-		043EF2F5245B5D2000A7ACFF /* NeoSmartBlindsIntents */ = {
-			isa = PBXGroup;
-			children = (
-				040F7549249EAEAE00BB92D0 /* ControlBlindIntentHandler.swift */,
-				046805CF249EF4F000F8B9ED /* ActivateSceneHandler.swift */,
-				043EF2F6245B5D2000A7ACFF /* IntentHandler.swift */,
-				043EF2F8245B5D2000A7ACFF /* NeoSmartBlindsIntents-Info.plist */,
-				046805D2249EF52900F8B9ED /* IntentUtils.swift */,
-			);
-			name = NeoSmartBlindsIntents;
-			path = "__PROJECT_NAME__/NeoSmartBlindsIntents";
-			sourceTree = SOURCE_ROOT;
-		};
-		080E96DDFE201D6D7F000001 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				302D95EE14D2391D003F00A1 /* MainViewController.h */,
-				302D95EF14D2391D003F00A1 /* MainViewController.m */,
-				302D95F014D2391D003F00A1 /* MainViewController.xib */,
-				1D3623240D0F684500981E51 /* AppDelegate.h */,
-				1D3623250D0F684500981E51 /* AppDelegate.m */,
-			);
-			name = Classes;
-			path = "__PROJECT_NAME__/Classes";
-			sourceTree = SOURCE_ROOT;
-		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* __PROJECT_NAME__.app */,
-				043EF2F4245B5D2000A7ACFF /* NeoSmartBlindsIntents.appex */,
-				040F7562249EB17300BB92D0 /* IntentKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,42 +103,42 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				043EDB8A2465819A00422900 /* shared.xcodeproj */,
 				EB87FDF41871DAF40020F90C /* config.xml */,
+				3047A50E1AB8057F00498E2A /* config */,
 				EB87FDF31871DA8E0020F90C /* www */,
 				EB87FDF11871DA420020F90C /* Staging */,
 				301BF52D109A57CC0062928A /* CordovaLib/CordovaLib.xcodeproj */,
-				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* __PROJECT_NAME__ */,
 				307C750510C5A3420062BCA9 /* Plugins */,
-				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
-				043EF2F5245B5D2000A7ACFF /* NeoSmartBlindsIntents */,
-				040F7563249EB17300BB92D0 /* IntentKit */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
 		};
-		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+		29B97315FDCFA39411CA2CEA /* __PROJECT_NAME__ */ = {
 			isa = PBXGroup;
 			children = (
+				8D1107310486CEB800E47090 /* __PROJECT_NAME__-Info.plist */,
 				32CA4F630368D1EE00C91783 /* __PROJECT_NAME__-Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				0207DA571B56EA530066E2B4 /* Assets.xcassets */,
 				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
-			name = "Other Sources";
+			name = "__PROJECT_NAME__";
 			path = "__PROJECT_NAME__";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
-			children = (
-				0207DA571B56EA530066E2B4 /* Images.xcassets */,
-				3047A50E1AB8057F00498E2A /* config */,
-				8D1107310486CEB800E47090 /* __PROJECT_NAME__-Info.plist */,
-				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
-			);
+			children = ();
 			name = Resources;
 			path = "__PROJECT_NAME__/Resources";
 			sourceTree = "<group>";
@@ -285,29 +188,15 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		040F755D249EB17300BB92D0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				040F7566249EB17300BB92D0 /* IntentKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-
 		1D6058900D05DD3D006BFB54 /* __PROJECT_NAME__ */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "__PROJECT_NAME__" */;
 			buildPhases = (
-				304B58A110DAC018002A0835 /* Copy www directory */,
+				857339E32710CC9700A1C74C /* Copy Staging Resources */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				043EF2FC245B5D2000A7ACFF /* Embed App Extensions */,
-				043EDB972465820E00422900 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,47 +208,13 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* __PROJECT_NAME__.app */;
 			productType = "com.apple.product-type.application";
 		};
-		040F7561249EB17300BB92D0 /* IntentKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 040F756B249EB17300BB92D0 /* Build configuration list for PBXNativeTarget "IntentKit" */;
-			buildPhases = (
-				040F755D249EB17300BB92D0 /* Headers */,
-				040F755E249EB17300BB92D0 /* Sources */,
-				040F755F249EB17300BB92D0 /* Frameworks */,
-				040F7560249EB17300BB92D0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = IntentKit;
-			productName = IntentKit;
-			productReference = 040F7562249EB17300BB92D0 /* IntentKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		043EF2F3245B5D2000A7ACFF /* NeoSmartBlindsIntents */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 043EF300245B5D2000A7ACFF /* Build configuration list for PBXNativeTarget "NeoSmartBlindsIntents" */;
-			buildPhases = (
-				043EF2F0245B5D2000A7ACFF /* Sources */,
-				043EF2F2245B5D2000A7ACFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				301BF551109A68C00062928A /* PBXTargetDependency */,
-			);
-			name = NeoSmartBlindsIntents;
-			productName = NeoSmartBlindsIntents;
-			productReference = 043EF2F4245B5D2000A7ACFF /* NeoSmartBlindsIntents.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
@@ -372,7 +227,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -387,8 +241,6 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* __PROJECT_NAME__ */,
-				043EF2F3245B5D2000A7ACFF /* NeoSmartBlindsIntents */,
-				040F7561249EB17300BB92D0 /* IntentKit */,
 			);
 		};
 /* End PBXProject section */
@@ -416,91 +268,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
-				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
+				0207DA581B56EA530066E2B4 /* Assets.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		043EF2F2245B5D2000A7ACFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		040F7560249EB17300BB92D0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		304B58A110DAC018002A0835 /* Copy www directory */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy www directory";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$SRCROOT/__PROJECT_NAME__/Scripts/copy-www-build-step.sh\"";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040F7574249EB3BA00BB92D0 /* Intents.intentdefinition in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040F755E249EB17300BB92D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				040F7572249EB1D600BB92D0 /* Intents.intentdefinition in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		043EF2F0245B5D2000A7ACFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				046805D3249EF52900F8B9ED /* IntentUtils.swift in Sources */,
-				046805D0249EF4F000F8B9ED /* ActivateSceneHandler.swift in Sources */,
-				040F7575249EB3BA00BB92D0 /* Intents.intentdefinition in Sources */,
-				040F754A249EAEAE00BB92D0 /* ControlBlindIntentHandler.swift in Sources */,
-				043EF2F7245B5D2000A7ACFF /* IntentHandler.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-
 		301BF551109A68C00062928A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CordovaLib;
 			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
-		};
-		040F7568249EB17300BB92D0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 040F7561249EB17300BB92D0 /* IntentKit */;
-			targetProxy = 04C2A52424A2DE2800BBF1FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -521,13 +313,13 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "__PROJECT_NAME__/__PROJECT_NAME__-Info.plist";
-				INTENTS_CODEGEN_LANGUAGE = Swift;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "__PROJECT_ID__";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-                VALIDATE_WORKSPACE = NO;
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Debug;
 		};
@@ -545,13 +337,13 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "__PROJECT_NAME__/__PROJECT_NAME__-Info.plist";
-				INTENTS_CODEGEN_LANGUAGE = Swift;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "__PROJECT_ID__";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-                VALIDATE_WORKSPACE = NO;
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Release;
 		};
@@ -574,14 +366,15 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				DEVELOPMENT_TEAM = R8858H47AJ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
@@ -592,11 +385,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MERGED_BINARY_TYPE = automatic;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 5.0;
 				WK_WEB_VIEW_ONLY = 1;
 			};
 			name = Debug;
@@ -620,13 +412,14 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				DEVELOPMENT_TEAM = R8858H47AJ;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_THUMB_SUPPORT = NO;
@@ -637,158 +430,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MERGED_BINARY_TYPE = automatic;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
 				WK_WEB_VIEW_ONLY = 1;
-			};
-			name = Release;
-		};
-		040F756C249EB17300BB92D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = R8858H47AJ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Neo Smart Blinds/IntentKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.neosmartblinds.app.IntentKit";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		040F756D249EB17300BB92D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = R8858H47AJ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Neo Smart Blinds/IntentKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.neosmartblinds.app.IntentKit";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		04609A5E249EAAF5009FD392 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				DEVELOPMENT_TEAM = R8858H47AJ;
-				INFOPLIST_FILE = "$(SRCROOT)/Neo Smart Blinds/NeoSmartBlindsIntents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.neosmartblinds.app.intents";
-				PRODUCT_NAME = NeoSmartBlindsIntents;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		04609A5F249EAAF5009FD392 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				INFOPLIST_FILE = "$(SRCROOT)/Neo Smart Blinds/NeoSmartBlindsIntents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				DEVELOPMENT_TEAM = R8858H47AJ;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.neosmartblinds.app.intents";
-				PRODUCT_NAME = NeoSmartBlindsIntents;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-
 		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "__PROJECT_NAME__" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -803,24 +454,6 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		040F756B249EB17300BB92D0 /* Build configuration list for PBXNativeTarget "IntentKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				040F756C249EB17300BB92D0 /* Debug */,
-				040F756D249EB17300BB92D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		043EF300245B5D2000A7ACFF /* Build configuration list for PBXNativeTarget "NeoSmartBlindsIntents" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04609A5E249EAAF5009FD392 /* Debug */,
-				04609A5F249EAAF5009FD392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
